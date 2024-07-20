@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Place Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Loading ....-->
+    <div id="loading" class="loading">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <section id="hero">
+        <div class="hero-content">
+            <h1 id="typed-text">Welcome to Taj Mahal...</h1>
+            <p>Explore the Taj Mahal, an iconic symbol of love and a stunning
+                white marble mausoleum<br> in Agra, India.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+        <section id="about">
+            <div class="container">
+            <h2>About Taj Mahal</h2>
+            <h3>The Taj Mahal: Icon of Love and Architectural Splendor</h3><br>
+                <p id="typed-text" style="text-align: justify;" >The Taj Mahal, located in Agra, India, is a masterpiece of Mughal architecture, built by Emperor Shah Jahan in memory of <br>his beloved wife, Mumtaz Mahal. 
+                Constructed from pristine white marble, it features intricate carvings and inlaid precious<br> stones, embodying elegance and symmetry.
+                This UNESCO World Heritage Site symbolizes enduring love and devotion, with<br> its iconic dome and four minarets standing as a testament to Shah Jahan's grief and tribute.  The mausoleum's reflection in <br>the surrounding pools adds to its ethereal beauty, changing colors throughout the day.
+                Visitors from around the world flock <br>to witness the Taj Mahal's grandeur, appreciating its cultural and historical significance. It continues to inspire are and<br> admiration, with its gardens and architecture representing the pinnacle of Mughal craftsmanship.
+                Whether at sunrise or<br> sunset, the Taj Mahal offers a mesmerizing experience, capturing hearts with its poignant narrative and architectural <br>brilliance.  A visit here is a journey into the heart of India's rich heritage and the enduring power of love immortalized <br>in stone... </p>
+        </div>
+    </section>
+    <section id="attractions">
+        <div class="container">
+            <h2>Popular Attractions :-</h2>
+            <div class="attraction-item">
+                <p style="font-size: 2rem; text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Emperor SHAH JAHAN | The Romantic-</p>
+                <div class="shan-jahan-image">
+                 <img src="/image/shah-jahan.jpg" alt="shah-jahan" id="shan-jahan"></div>
+                <h3> Shah Jahan</h3>
+                <p>As a young man, he was married to two wives known as Akbarabadi Mahal (d.1677 AD), and Kandahari Mahal (m.1609 AD). Beforehand however, in 1607 AD, Khurram had been betrothed to Arjumand Bano Begum, the grand daughter of a Persian noble, who was just 14 years old at the time. She would become the unquestioned love of his life and they were married in 1612 AD.
+                    According to the official court chronicler Qazwini, the relationship with his other wives "had nothing more than the status of marriage. The intimacy, deep affection, attention and favour which His Majesty had for the Cradle of Excellence [Mumtaz] exceeded by a thousand times what he felt for any other”.
+                    Shah Jahan was utterly devoted to Mumtaz Mahal, who was his constant companion and trusted confidante and their relationship was intense. Indeed, the court historians go to unheard of lengths to document the intimate and erotic relationship the couple enjoyed.
+                    Sheela Reddy in her Taj Trivia termed Shah Jahan as ‘The Man of Marble’. Quoting the Austrian art historian Ebba Koch and her book, “The Complete Taj Mahal”, she says that Shah Jahan picked the site for Taj for its great view from Raja Jai Singh of Amber, in exchange for four mansions.
+                    His own burial was not grand; he was taken quietly by two men by boat and laid beside Mumtaz..</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="image-grid">
+                <div class="image-container">
+                    <img src="/image/tour_iamge9.jpg" alt="Image 1">
+                </div>
+                <div class="image-container">
+                    <img src="/image/tour_image12.jpg" alt="Image 2">
+                </div>
+                <div class="image-container">
+                    <img src="/image/tour_image11.jpg" alt="Image 3">
+                </div>
+                <div class="image-container">
+                    <img src="/image/tour_image14.jpg" alt="Image 4">
+                </div>
+                <div class="image-container">
+                    <img src="/image/tour_image13.jpg" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="/image/tour_image10.jpg" alt="Image 6">
+                </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn" >Send Message</button>
+            </form>
+        </div>
+    
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">
+            Copyright © <span id="year"></span> Your . All rights reserved.
+        </p>
+        <p class="notice">
+            All content, images, and materials on this website are the property of Your Company/Website Name and are protected by copyright laws. Unauthorized use, reproduction, or distribution of any content from this website is prohibited without express written permission from the copyright holder.
+        </p>
+        <p class="contact">
+            For inquiries regarding permissions, please contact us at Email: <a href="#">email</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
