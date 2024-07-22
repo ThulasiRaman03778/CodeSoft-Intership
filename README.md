@@ -20,14 +20,14 @@ The Codesoft Internship provided an opportunity to explore various aspects of we
 - **Description:** Designed and implemented a professional landing page for a fictional product or service.
 - **Technologies Used:** HTML, CSS, JavaScript
 - **Features:** Eye-catching design, call-to-action sections, responsive layout
-- **Demo:** [View Landing Page](https://thulasiramans-tajmahal.netlify.app)
+- **Demo:** [View Landing Page](https://codesoftinternship-tajmahal.netlify.app)
 
 ### **Task 3: Calculator Application**
 
 - **Description:** Created a basic calculator application to perform arithmetic operations.
 - **Technologies Used:** HTML, CSS, JavaScript
 - **Features:** Addition, subtraction, multiplication, division
-- **Demo:** [View Calculator](https://thualsiramans-modern-calculator.netlify.app)
+- **Demo:** [View Calculator](https://codesoftinternship-calculator.netlify.app)
 
 ## 🛠️ Technologies & Tools
 
@@ -46,8 +46,8 @@ During this internship, I gained practical experience in:
 
 
 - **[Web Portfolio](https://thualsiramans-jack-web-portfolio.netlify.app)**
-- **[Landing Page](https://thulasiramans-tajmahal.netlify.app)**
-- **[Calculator Application](https://thualsiramans-modern-calculator.netlify.app)**
+- **[Landing Page](https://codesoftinternship-tajmahal.netlify.app)**
+- **[Calculator Application](https://codesoftinternship-calculator.netlify.app)**
 
 ## 🤝 Contributing
 
