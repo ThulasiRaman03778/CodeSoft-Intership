@@ -1,0 +1,135 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #f4e1f38e;
+    font-family: 'Arial', sans-serif;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+.calculator {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgb(224, 125, 125);
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px;
+}
+.calculator h2{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.display {
+    background: #222222;
+    background: #222222;
+    color: #ffffff;
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: right;
+    box-sizing: border-box;
+    border-bottom: 2px solid #444444;
+}
+
+.buttons {
+    display: grid;
+    border: 2px #333;
+    grid-template-columns: repeat(4, 1fr);
+    gap:0.1px;
+}
+
+.btn {
+    background: #f0f0f0;
+    border: 1px #333;
+    font-size: 1.5em;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e0e0e0;
+}
+
+.btn:active {
+    background: #d0d0d0;
+}
+
+.btn-ac {
+    background: #ff4c4c;
+    color: white;
+    grid-column: span 2;
+}
+
+.btn-ac:hover {
+    background: #ff2d2d;
+}
+
+.btn-clear {
+    background:  #ff4c4c;
+    color: white;
+}
+
+.btn-clear:hover {
+    background:  #ff2d2d;
+}
+
+.btn-operator {
+    background: #ff9500;
+    color: white;
+}
+
+.btn-operator:hover {
+    background: #ff7f00;
+}
+
+.btn-equal {
+    
+    background: #ff9500;
+    color: white;
+    grid-column: span 4;
+    font-size: 1.8em;
+}
+
+.btn-equal:hover {
+    background: #ff7f00;
+}
+
+.btn-zero {
+    grid-column: span 2;
+}
+
+.btn-decimal {
+    background: #e0e0e0;
+    grid-column: span 2;
+}
+.btn-decimal:hover{
+    background-color: rgb(202, 202, 202);
+}
+@media (max-width: 500px) {
+    .display {
+        font-size: 2em;
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 1.2em;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    .btn {
+        font-size: 1em;
+        padding: 12px;
+    }
+}
