@@ -13,7 +13,7 @@ The Codesoft Internship provided an opportunity to explore various aspects of we
 - **Description:** Developed a personal web portfolio to showcase my projects, skills, and experience.
 - **Technologies Used:** HTML, CSS, JavaScript
 - **Features:** Responsive design, project display, contact form
-- **Demo:** [View Web Portfolio](https://thualsiramans-jack-web-portfolio.netlify.app)
+- **Demo:** [View Web Portfolio](https://codeinternship-jack-webportfoilo.netlify.app)
 
 ### **Task 2: Landing Page**
 
@@ -45,7 +45,7 @@ During this internship, I gained practical experience in:
 ## 🔗 Links
 
 
-- **[Web Portfolio](https://thualsiramans-jack-web-portfolio.netlify.app)**
+- **[Web Portfolio](https://codeinternship-jack-webportfoilo.netlify.app)**
 - **[Landing Page](https://codesoftinternship-tajmahal.netlify.app)**
 - **[Calculator Application](https://codesoftinternship-calculator.netlify.app)**
 
